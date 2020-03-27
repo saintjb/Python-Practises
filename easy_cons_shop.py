@@ -1,4 +1,5 @@
 from getpass import getpass
+
 def invalid_name(list, element):
     global name_dic
     for dic in list:

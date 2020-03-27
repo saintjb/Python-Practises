@@ -86,6 +86,7 @@ class Person:
 
 
 class Student(Person):
+
     number_of_students = 0
 
     def __init__(self, f_name, l_name, age, password, grade, speciality, group_number, m_name=''):
@@ -183,6 +184,7 @@ class Student(Person):
 
 
 class Professor(Person):
+
     number_of_professors = None
 
     def __init__(self, f_name, l_name, age, password, grade, speciality, teaching_hours, m_name=''):
@@ -246,6 +248,7 @@ class Professor(Person):
 
 
 class Administrator(Person):
+
     number_of_administrators = 0
 
     def __init__(self, f_name, l_name, age, password, grade, speciality, m_name=''):
@@ -601,9 +604,9 @@ def add_member(members_list):
     members_list(member)
 
 
-members = [[('jimmy', 'jones', 22, '1234', 'first', 'python', 10)],
-           [Professor('jack', 'neutron', 30, '234', 5, 'maths', 25)],
-           [Administrator('jason', 'statham', 35, '456', 5, 'students')]]
+members = [[('Jimmy', 'Jackson', 22, '1234', 'first', 'python', 10)],
+           [Professor('Sue', 'Li', 30, '234', 5, 'maths', 25)],
+           [Administrator('Jason', 'Brown', 35, '456', 5, 'students')]]
 print('\t\t\t\t\t\t\t\t\t\t\t**Welcome to our school system**'
                     '\n\nPlease enter your profession:'
                         '\n\t1)Student'

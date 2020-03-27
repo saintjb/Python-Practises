@@ -605,9 +605,9 @@ def admins_menu(logged_member: Administrator):
     }[manage](logged_member)
 
 
-members = [[Student('jalil', 'benharkat', 22, 'hhhhhh', 'first', 'python', 10)],
-            [Professor('Taher', 'Mayssoum', 30, '123456789', 5, 'MATHS', 25)],
-            [Administrator('Moussa', 'Lhaj', 35, '1234', 5, 'admins')]]
+members = [[Student('Vi', 'Kuv', 22, 'seht', 'first', 'python', 10)],
+            [Professor('John', 'Smith', 30, '123456789', 5, 'MATHS', 25)],
+            [Administrator('Jimmy', 'Jones', 35, '1234', 5, 'admins')]]
 print("\t\t\t\t\t\t\t\t**Welcome to our School System**\n\nPlease enter your profession:\n\t1)Student"
       "\n\t2)Professor\n\t3)Administrator")
 profession = int(input()) - 1
